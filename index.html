@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>THE BRICKS</title>
+    
+    <script type="application/javascript" src="bricks.js"></script>
+	<script src="jQuery.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onLoad="drawIt()">
+        <div id="title" onClick="drawIt()">
+			<a id="demo" onClick="drawIt()" class="gumbText"></a>
+           <h2> THE BRICKS</h2>
+		</div>
+		
+		<div class ="wrapper">
+			
+			<div id="Igra" >
+				<canvas id="canvas" width="500" height="500"></canvas>	
+			</div>
+		</div>
+		
+		<div id="RezultatIgre">
+		
+			<div id="score">
+				<a class="score">SCORE:</a>
+					<a><mark id="tocke">0</mark></a>
+					
+					<div id="points">
+					
+					</div>
+			</div>
+				
+				<div id="timer">
+					<a class="TIME">TIME:</a>
+					<p><mark id="cas">00:00</mark></p>
+			
+			
+			
+				</div>
+		</div>
+		
+</body>
+</html>
